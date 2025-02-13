@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="bg-music" loop autoplay>
+        <source src="https://www.bensound.com/royalty-free-music/track/a-day-to-remember-wedding-music" type="audio/mp3">
+    </audio>
+    <div class="container" onclick="toggleEnvelope()"> <!-- The back envelope -->
+        <div class="envelope">                         <!-- The front envelop -->
+            <div class="card" onclick="showFullCard()">
+                <h3>Happy Valentine's Day!<span class="heart">❤️</span></h3>
+                <p>I love you!</p>
+            </div>
+        </div>
+        <div class="flap"></div> <!-- BERMUDA TRIANGLE -->
+    </div>
+
+    <div class="overlay" id="overlay" onclick="hideFullCard()">
+        <div class="full-card">
+            <h3 style="text-align: center;">
+                Happy Valentine's Day!
+                        <span class="heart">🌹</span>
+                    </span>
+                </a>
+            </h3>
+            <p style="text-indent: 10%;">Sayo lang ako, sa'kin ka lang.</p>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
