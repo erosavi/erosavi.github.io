@@ -4,7 +4,6 @@ function toggleEnvelope() {
 
 function showFullCard() {
   document.getElementById("overlay").style.display = "flex";
-  document.getElementById("bg-music").play();
 }
 function hideFullCard() {
   document.getElementById("overlay").style.display = "none";
@@ -31,6 +30,7 @@ function createFlower(x, y) {
 function showFullCard() {
   document.getElementById("overlay").style.display = "flex";
   setInterval(createFloatingHearts, 100); // Create hearts every 100ms
+  document.getElementById("bg-music").play();
 }
 
 function createFloatingHearts() {
