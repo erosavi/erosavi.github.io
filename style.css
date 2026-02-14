@@ -129,7 +129,7 @@ fieldset {
 
 .card__content {
   padding: 1.3rem 3rem 0 1.25rem;
-  font-size: 1.0009rem;
+  font-size: 0.999remrem;
   line-height: 1.25rem;
 
   p {
@@ -308,3 +308,4 @@ body:has(#orange:checked) .heart:after {
     transform: scale(var(--scale)) translate(1px, 1px);
   }
 }
+
